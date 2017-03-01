@@ -1,0 +1,7 @@
+#surefire_0
+#Tue Feb 28 20:25:41 EST 2017
+user.dir=C\:\\Users\\Fuadkhan\\Downloads\\Compressed\\samsclub
+localRepository=C\:\\Users\\Fuadkhan\\.m2\\repository
+target=local
+run=android
+basedir=C\:\\Users\\Fuadkhan\\Downloads\\Compressed\\samsclub

@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.pnt.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 83.6 sec <<< FAILURE! - in com.pnt.LoginTest
+loginWithValidCredentials(com.pnt.LoginTest)  Time elapsed: 83.523 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 6.0.1. The following are available: ad7d3849 (7.0) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.71 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-QFU6CGB', ip: '192.168.134.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at com.pnt.LoginTest.setUp(LoginTest.java:17)
+
+loginWithValidCredentials(com.pnt.LoginTest)  Time elapsed: 83.536 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.pnt.LoginTest.tearDown(LoginTest.java:29)
+

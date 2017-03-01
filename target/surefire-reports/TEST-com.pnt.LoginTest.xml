@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.pnt.LoginTest" time="83.6" tests="2" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="target" value="local"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Fuadkhan\Downloads\Compressed\samsclub"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Fuadkhan\Downloads\Compressed\samsclub"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Fuadkhan\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Fuadkhan\Downloads\Compressed\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Users\Fuadkhan\AppData\Local\Android\sdk\platform-tools;C:\Program Files\Git\cmd;C:\Users\Fuadkhan\Downloads\Compressed\apache-maven-3.3.9\bin;C:\WINDOWS\system32\package.json;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_111\bin;D:\Curl;C:\Users\Fuadkhan\AppData\Local\Microsoft\WindowsApps;C:\Users\Fuadkhan\AppData\Roaming\npm;."/>
+    <property name="run" value="android"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Fuadkhan"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Fuadkhan"/>
+    <property name="java.class.path" value="C:\Users\Fuadkhan\Downloads\Compressed\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Drun=android -Dtarget=local"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Fuadkhan\Downloads\Compressed\apache-maven-3.3.9\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="loginWithValidCredentials" classname="com.pnt.LoginTest" time="83.523">
+    <error message="An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 6.0.1. The following are available: ad7d3849 (7.0) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 5.71 seconds&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;DESKTOP-QFU6CGB&apos;, ip: &apos;192.168.134.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Unable to find an active device or emulator with OS 6.0.1. The following are available: ad7d3849 (7.0) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.71 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-QFU6CGB', ip: '192.168.134.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at com.pnt.LoginTest.setUp(LoginTest.java:17)
+</error>
+    <system-out><![CDATA[[Appium] Welcome to Appium v1.6.3
+[Appium] Non-default server args:
+[Appium]   port: 12318
+[Appium] Appium REST http interface listener started on 0.0.0.0:12318
+[HTTP] --> GET /wd/hub/status {}
+[debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+[debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.6.3","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 78 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"com.rfi.sams.android","appActivity":"com.rfi.sams.android.main.SplashActivity","platformVersion":"6.0.1","automationName":"appium","browserName":"","platformName":"Android","deviceName":"S7 edge","newCommandTimout":60}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"com.rfi.sams.android","appActivity":"com.rfi.sams.android.main.SplashActivity","platformVersion":"6.0.1","automationName":"appium","browserName":"","platformName":"Android","deviceName":"S7 edge","newCommandTimout":60},null,null,null,null]
+[Appium] Creating new AndroidDriver session
+[Appium] Capabilities:
+[Appium]   appPackage: 'com.rfi.sams.android'
+[Appium]   appActivity: 'com.rfi.sams.android.main.SplashActivity'
+[Appium]   platformVersion: '6.0.1'
+[Appium]   automationName: 'appium'
+[Appium]   browserName: ''
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'S7 edge'
+[Appium]   newCommandTimout: 60
+[debug] [AndroidDriver] AndroidDriver version: 1.10.38
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: newCommandTimout.
+[BaseDriver] Session created with session id: 86d9e200-da78-4f40-804c-212876be81d6
+[debug] [AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 1.8.0_111
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\Fuadkhan\AppData\Local\Android\sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[AndroidDriver] Looking for a device with Android '6.0.1'
+[debug] [ADB] Setting device id to ad7d3849
+[ADB] Getting device platform version
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[debug] [ADB] Running 'C:\Users\Fuadkhan\AppData\Local\Android\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","ad7d3849","shell","getprop","ro.build.version.release"]
+[AndroidDriver] Error: Unable to find an active device or emulator with OS 6.0.1. The following are available: ad7d3849 (7.0)
+    at Object.wrappedLogger.errorAndThrow (lib/logger.js:60:13)
+    [debug] [AndroidDriver] Shutting down Android driver
+[debug] [AndroidDriver] Called deleteSession but bootstrap wasn't active
+at Object.callee$0$0$ (../../lib/android-helpers.js:158:16)
+    at tryCat[HTTP] <-- POST /wd/hub/session 500 5245 ms - 239 
+ch (C:\Users\Fuadkhan\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Fuadkhan\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Fuadkhan\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Fuadkhan\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+ Error: Unable to find an active device or emulator with OS 6.0.1. The following are available: ad7d3849 (7.0)
+    at Object.wrappedLogger.errorAndThrow (lib/logger.js:60:13)
+    at Object.callee$0$0$ (../../lib/android-helpers.js:158:16)
+    at tryCatch (C:\Users\Fuadkhan\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Fuadkhan\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Fuadkhan\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\Fuadkhan\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[MJSONWP] Encountered internal error running command: Error: Unable to find an active device or emulator with OS 6.0.1. The following are available: ad7d3849 (7.0)
+    at Object.wrappedLogger.errorAndThrow (lib/logger.js:60:13)
+    at Object.callee$0$0$ (../../lib/android-helpers.js:158:16)
+    at tryCatch (C:\Users\Fuadkhan\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\Fuadkhan\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\Fuadkhan\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke ]]></system-out>
+  </testcase>
+  <testcase name="loginWithValidCredentials" classname="com.pnt.LoginTest" time="83.536">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.pnt.LoginTest.tearDown(LoginTest.java:29)
+</error>
+    <system-out><![CDATA[(C:\Users\Fuadkhan\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+]]></system-out>
+  </testcase>
+</testsuite>

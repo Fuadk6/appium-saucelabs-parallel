@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.pnt.SampleSauceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 85.469 sec <<< FAILURE! - in com.pnt.SampleSauceTest
+sampleTest(com.pnt.SampleSauceTest)  Time elapsed: 85.469 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Sauce could not start your job. For more information on what happened, please visit https://saucelabs.com/jobs/99610aacdecf48e7a4df851afc2fa480 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 85.50 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'DESKTOP-QFU6CGB', ip: '192.168.134.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at com.pnt.SampleSauceTest.setUp(SampleSauceTest.java:36)
+
+sampleTest(com.pnt.SampleSauceTest)  Time elapsed: 85.469 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.pnt.SampleSauceTest.tearDown(SampleSauceTest.java:50)
+
